@@ -1,13 +1,13 @@
 <template>
   <div class="parent">
-    <v-container fluid>
+    <v-container>
       <v-row class="align-center">
-        <v-col cols="12" md="6" sm="6" lg="6">
+        <v-col cols="12" md="6" sm="12" lg="6">
           <div class="photo">
-            <img src="@/assets/cover/image 13.png" class="w-50" alt="" />
+            <img src="@/assets/cover/cover.png" class="w-100" alt="" />
           </div>
         </v-col>
-        <v-col cols="12" md="6" sm="6" lg="6">
+        <v-col cols="12" md="6" sm="12" lg="6">
           <div class="text">
             <div class="loop-text">
               <h1>We Help You</h1>

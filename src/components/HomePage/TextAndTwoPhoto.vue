@@ -5,23 +5,23 @@
         <v-col cols="12" sm="5" md="4" lg="5">
           <!--text-->
           <div class="text">
-            <div class="help you d-flex justify-center align-center">
+            <div class="help">
               <h4 class="text-uppercase mb-2">we help you</h4>
             </div>
-            <div class="sell d-flex justify-center align-center">
+            <div class="sell">
               <h1 class="text-capitalize mt-5">
                 sell <br />
                 stunning <br />
                 products
               </h1>
             </div>
-            <div class="well-guide d-flex justify-center align-center">
-              <p class="mt-3 mb-8">
-                We'll guide you trough our unique 5-step <br />
+            <div class="well-guide">
+              <p class="mt-3 mb-0">We'll guide you trough our unique 5-step</p>
+              <p class="mt-0 mb-8 left-para position-relative">
                 brand-buillding framework
               </p>
             </div>
-            <div class="btn mt-5 d-flex justify-center align-center">
+            <div class="btn mt-5">
               <v-btn
                 density="compact"
                 width="240"
@@ -97,7 +97,7 @@ export default {};
 /*text-style*/
 .text {
   h4 {
-    color: rgba(234, 234, 97, 0.867);
+    color: #f9dc88;
   }
   h1 {
     font-size: 45px;
@@ -106,6 +106,7 @@ export default {};
     color: #000 !important;
     opacity: 0.5 !important;
     font-weight: 600;
+    white-space: nowrap;
   }
   .v-btn {
     font-weight: 700;
@@ -128,7 +129,7 @@ export default {};
   width: 235px;
   height: 235px;
   border-radius: 50%;
-  background-color: rgb(255 193 7 / 57%);
+  background-color: #f9dc88;
   margin: auto;
   z-index: 1;
   top: -48px;
@@ -193,7 +194,7 @@ export default {};
   height: 180px;
   inset: 0;
   border-radius: 50%;
-  background-color: rgb(131, 58, 200);
+  background-color: #a99ffb;
   z-index: 1;
   margin-bottom: 123px;
   transform: translate(-11%, 58%);

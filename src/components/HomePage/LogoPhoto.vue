@@ -1,32 +1,21 @@
 <template>
-  <div class="mt-2">
+  <div class="mt-8">
     <div class="logo">
-      <v-container>
-        <div>
-          <v-row class="align-center">
-            <v-col col="12" md="4" lg="4">
-              <div class="text-center" v-for="item in image" :key="item.title">
-                <h4 class="text-center opacity-color">{{ item.title }}</h4>
+      <v-container fluid>
+        <v-row class="align-center">
+          <v-col cols="12" md="6" lg="6" sm="6">
+            <div class="d-flex justify-center align-center">
+              <p class="text-center">Companies we've helped build</p>
+            </div>
+          </v-col>
+          <v-col cols="12" md="6" lg="6" sm="6">
+            <div class="d-flex">
+              <div v-for="content in image" :key="content.img">
+                <img class="w-100" :src="content.img" alt="" />
               </div>
-            </v-col>
-            <v-col
-              class="d-flex justify-space-between align-center"
-              col="12"
-              md="2"
-              lg="2"
-              v-for="item in image"
-              :key="item.title"
-            >
-              <div class="logo">
-                <img
-                  :src="item.img"
-                  style="width: 150px"
-                  class=""
-                  alt=""
-                /></div
-            ></v-col>
-          </v-row>
-        </div>
+            </div>
+          </v-col>
+        </v-row>
       </v-container>
     </div>
   </div>
@@ -48,6 +37,9 @@ export default {
       {
         img: require("@/assets/img-logos/4.png"),
       },
+      {
+        img: require("@/assets/img-logos/5.png"),
+      },
 
       {
         title: "Companies we've helped build",
@@ -63,3 +55,5 @@ export default {
   opacity: 0.5 !important;
 }
 </style>
+<!-- v-for="item in image"
+:key="item.title" -->
