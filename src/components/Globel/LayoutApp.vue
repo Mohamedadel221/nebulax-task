@@ -1,6 +1,6 @@
 <template>
   <div>
-    <v-layout>
+    <v-layout class="position-relative">
       <v-main style="padding-top: 50px">
         <slot></slot>
       </v-main>

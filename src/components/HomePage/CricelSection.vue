@@ -121,7 +121,7 @@ export default {};
 /*text-style*/
 .text {
   h4 {
-    color: rgba(234, 234, 97, 0.867);
+    color: #f9dc88;
   }
 
   h1 {
@@ -153,6 +153,7 @@ export default {};
 /*text-style*/
 /*section-chair*/
 .parent-cricel-one {
+  transform: translate(0, -10px);
   .blue-cricel {
     position: relative;
     width: 180px;
@@ -160,16 +161,16 @@ export default {};
     border-radius: 50%;
     background-color: #4bb5d8;
     margin: auto;
-    z-index: -1;
-    top: -48px;
+    z-index: 0;
   }
   .box {
-    background: #efefef;
+    background: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06);
     padding: 10px;
     width: 70%;
     border-radius: 10px;
     position: absolute;
-    transform: translate(0, -160px);
+    transform: translate(0, -90px);
     span {
       color: #54c883;
     }
@@ -214,11 +215,12 @@ export default {};
     top: -48px;
   }
   .box {
-    background: #efefef;
+    background: #ffffff;
     padding: 10px;
     width: 70%;
     border-radius: 10px;
     transform: translate(0, -160px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06);
     position: absolute;
     span {
       color: #54c883;
@@ -242,6 +244,14 @@ export default {};
   }
 }
 @media (max-width: 1024px) {
+  .parent-cricel-two {
+    transform: translate(0px, 0) !important;
+    .box {
+      transform: translate(0, -160px) !important;
+    }
+  }
+}
+@media (min-width: 1025px) and (max-width: 1200px) {
   .parent-cricel-two {
     transform: translate(0px, 0) !important;
     .box {

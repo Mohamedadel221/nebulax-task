@@ -149,6 +149,7 @@ export default {};
       position: absolute;
       content: "";
       background: #ffffff;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06);
       border-radius: 8px;
       left: 50px;
       top: 114px;
@@ -214,6 +215,7 @@ export default {};
       position: absolute;
       content: "";
       background: #ffffff;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06);
       border-radius: 8px;
       left: 0;
       top: 114px;
@@ -239,9 +241,9 @@ export default {};
     width: 114px;
     margin-top: 18px;
     h5 {
-      color: rgb(255 191 0 / 96%);
+      color: #f9dc88;
       span {
-        color: rgb(255 193 7 / 57%);
+        color: #f9dc88;
       }
     }
   }

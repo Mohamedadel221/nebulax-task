@@ -1,5 +1,5 @@
 <template>
-  <v-app-bar elevation="0" class="">
+  <v-app-bar elevation="0" color="efefef" absolute>
     <v-container fluid>
       <ul class="d-flex align-center mr-10">
         <li><router-link to="">get started now</router-link></li>

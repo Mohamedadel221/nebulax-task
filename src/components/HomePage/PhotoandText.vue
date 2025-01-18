@@ -99,4 +99,9 @@ export default {
     }
   }
 }
+@media (min-width: 1025px) and (max-width: 1200px) {
+  .larg-text {
+    font-size: 48px !important;
+  }
+}
 </style>

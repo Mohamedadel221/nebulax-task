@@ -1,0 +1,66 @@
+       <div class="parent-cricel-one">
+                <div class="blue-cricel mt-3 position-relative mt-3"></div>
+                <div class="box position-relative">
+                  <div class="d-flex align-center justify-center">
+                    <div class="img">
+                      <img
+                        class="mr-5"
+                        src="@/assets/box-photo/1.jpeg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="money text-center">
+                      <div
+                        class="d-flex align-center justify-center"
+                        style="gap: 20px"
+                      >
+                        <h2>
+                          <strong>$ 7,654</strong>
+                        </h2>
+                        <span>
+                          <v-icon size="15" color=""
+                            >mdi-chevron-up</v-icon
+                          ></span
+                        >
+                      </div>
+                      <p class="text-uppercase">
+                        total revenue <span color="green">+$232</span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="parent-cricel-two" style="transform: translateY(91%)">
+                <div class="green-circel position-relative mt-3"></div>
+                <div class="box position-relative">
+                  <div class="d-flex align-center justify-center">
+                    <div class="money text-center">
+                      <div
+                        class="d-flex align-center justify-center"
+                        style="gap: 20px"
+                      >
+                        <span>
+                          <v-icon size="15" color=""
+                            >mdi-chevron-up</v-icon
+                          ></span
+                        >
+                        <h2>
+                          <strong>$ 7,654</strong>
+                        </h2>
+                      </div>
+                      <p class="text-uppercase">
+                        total revenue <span color="green">+$232</span>
+                      </p>
+                    </div>
+                    <div class="img">
+                      <img
+                        class="ml-5"
+                        src="@/assets/box-photo/1.jpeg"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
