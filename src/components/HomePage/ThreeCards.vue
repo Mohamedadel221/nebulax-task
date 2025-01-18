@@ -5,7 +5,7 @@
         <v-col
           cols="12"
           md="4"
-          sm="6"
+          sm="12"
           lg="4"
           v-for="cards in threeCards"
           :key="cards.title"

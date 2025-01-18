@@ -241,7 +241,7 @@ export default {};
     }
   }
 }
-@media (max-width: 767px) {
+@media (max-width: 1024px) {
   .parent-cricel-two {
     transform: translate(0px, 0) !important;
     .box {
